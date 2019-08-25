@@ -17,7 +17,7 @@
 			<snapshotRepository>
 				<id>snapshots</id>
 				<name>DESKTOP-I7IQHS3-snapshots</name>
-				<url>http://localhost:8081/artifactory/lib-local-release</url>
+				<url>http://localhost:8081/artifactory/lib-local-snapshot</url>
 			</snapshotRepository>
 		</distributionManagement>	
 	
