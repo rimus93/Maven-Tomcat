@@ -47,7 +47,9 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<!--
 		<finalName>baby</finalName>
+		-->
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
