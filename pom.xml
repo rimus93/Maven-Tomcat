@@ -8,18 +8,13 @@
 	<version>1.0</version>
 	<name>mvn-hello-world Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-			<distributionManagement>
-			<repository>
-				<id>central</id>
-				<name>DESKTOP-I7IQHS3-releases</name>
-				<url>http://localhost:8081/artifactory/lib-local-release</url>
-			</repository>
-			<snapshotRepository>
-				<id>snapshots</id>
-				<name>DESKTOP-I7IQHS3-snapshots</name>
-				<url>http://localhost:8081/artifactory/lib-local-snapshot</url>
-			</snapshotRepository>
-		</distributionManagement>	
+  <distributionManagement>
+      <snapshotRepository>
+        <id>nexus</id>
+        <url>http://localhost:8081/repository/maven-snapshots/</url>
+      </snapshotRepository>
+  </distributionManagement>
+
 	
 	<dependencies>
 		<dependency>
